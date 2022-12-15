@@ -216,3 +216,10 @@
   new PureCounter();
 
 })()
+
+emailjs.sendForm('service_g2w76te', 'template_6xvycab', '#myForm')
+  .then(function (response) {
+    console.log('SUCCESS!', response.status, response.text);
+  }, function (error) {
+    console.log('FAILED...', error);
+  });

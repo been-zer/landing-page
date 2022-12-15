@@ -1,9 +1,4 @@
-/**
-* Template Name: Bootslander - v4.9.1
-* Template URL: https://bootstrapmade.com/bootslander-free-bootstrap-landing-page-template/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
+
 @import url('https://fonts.googleapis.com/css2?family=Kanit:wght@100;300&family=Roboto:wght@300;400;500&display=swap');
 
 /*--------------------------------------------------------------
@@ -443,14 +438,14 @@ h6 {
 --------------------------------------------------------------*/
 #hero {
   width: 100%;
-  background: url("../img/hero-bg.jpg");
+  /* background: url("../img/hero-bg.jpg"); */
   position: relative;
   padding: 120px 0 0 0;
 }
 
 #hero:before {
   content: "";
-  background: rgba(13, 90, 7, 0.824);
+  background:#029311;
   position: absolute;
   bottom: 0;
   top: 0;
@@ -1747,9 +1742,86 @@ section {
   font-size: 13px;
   color: rgb(255, 255, 255);
 }
-
+#my-div-video{
+  width: 620;
+  border-radius: 15px;
+}
 @media (max-width: 575px) {
   #footer .footer-top .footer-info {
     margin: -20px 0 30px 0;
   }
 }
+
+  /* Common styles for all screen sizes */
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: "Open Sans", sans-serif;
+  }
+
+  .logo h1 a span {
+    color: rgb(255, 255, 255);
+  }
+
+  /* Styles for small screens */
+  @media only screen and (max-width: 768px) {
+    .logo h1 a span {
+      font-size: 24px;
+    }
+
+    .hero-section h1 {
+      font-size: 36px;
+    }
+
+    .hero-section h2 {
+      font-size: 18px;
+    }
+
+    .hero-section .download-buttons {
+      text-align: center;
+    }
+    #my-video{
+      width: 100%;
+      margin-right: 100px;
+    }
+  }
+
+  /* Styles for medium screens */
+  @media only screen and (min-width: 768px) and (max-width: 992px) {
+    .logo h1 a span {
+      font-size: 28px;
+    }
+
+    .hero-section h1 {
+      font-size: 48px;
+    }
+
+    .hero-section h2 {
+      font-size: 24px;
+    }
+     #my-video{
+      width: 100%;
+      /* margin-right: 200px; */
+    }
+  }
+
+  /* Styles for large screens */
+  @media only screen and (min-width: 992px) {
+    .logo h1 a span {
+      font-size: 32px;
+    }
+
+    .hero-section h1 {
+      font-size: 64px;
+    }
+
+    .hero-section h2 {
+      font-size: 32px;
+    }
+     #my-video{
+      width: 100%;
+      margin-right: 100px;
+    }
+  }
+
+
