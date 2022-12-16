@@ -146,7 +146,7 @@ h6 {
   transition: all 0.5s;
   z-index: 997;
   transition: all 0.5s;
-  background: rgba(1, 136, 14, 0.9);
+  background: rgba(5, 193, 23, 0.9);
 }
 
 #header.header-transparent {
@@ -445,7 +445,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(13, 90, 7, 0.824);
+  background: #029311;
   position: absolute;
   bottom: 0;
   top: 0;
